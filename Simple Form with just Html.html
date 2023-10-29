@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Form">
+<title>Form page</title>
+<link rel="stylesheet" href="">
+<script> </script>
+<style>
+    .my_textarea
+    {}
+    select{color: #000; margin: 5px; background-color: beige;}
+</style>
+</head>
+<body> 
+<form name="Registration" </form>
+    <fieldset>
+      <legend>Login</legend>
+        <label>Username</label>
+             <input type="text" name="Username" value="" placeholder=" Username" >
+        <br>
+        <label>Password</label>
+              <input type="password" name="Password" placeholder=" Password">
+        <br></fieldset>
+        <label>Your message here</label><br>
+        <textarea class= "my_textarea"  >sfasdfasdf</textarea>
+        
+        <br>
+        <label>remember me</label>
+
+        <input type="checkbox">
+        <br>
+        <fieldset>
+            <legend>buttons</legend>
+                  <input type="submit" value="signup" >
+                  <br>
+                  <input type="button" value="hello"  >
+                  <br>
+                  <input type="reset">
+                  <br>
+        <label>Upload Your cv</label>
+                  <input type="file">
+                  <br>
+                  <label>image</label>
+                  <input type="image">
+                  <br></fieldset>
+                  <input type="hidden">
+                  <br>
+                <fieldset>
+                    <legend>favourit brawser& phone</legend>
+                  <label>choose your brawser</label>
+                  <br>
+                  <input type="radio" name="brawser" value="chrom">chrom<br>
+                  <input type="radio" name="brawser" value="firefox">firefox<br>
+                  <input type="radio" name="brawser" value="opera">opera<br>
+                  <label>choose your phone</label>
+                  <br>
+                  <input type="radio" name="mobile" value="iphone">iphone<br>
+                  <input type="radio" name="mobile" value="nokia">nokia<br>
+                  <input type="radio" name="mobile" value="samsung">samsung<br>
+                  <select name="Time">
+                    <optgroup label="minitus">
+                        <option>Now</option>
+                        <option>after 10 min</option>
+                        <option>after 20 min</option>
+                    </optgroup>
+                    <optgroup label="hours">
+                        <option>1 hour</option>
+                        <option>2hours</option>
+                        <option>3hours</option>
+                  </optgroup>
+
+                  </select>
+                </fieldset>
+</body>
+</html>

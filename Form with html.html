@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">    
+<meta name="description" content="Final_Form"  >
+<title>Form Page</title>
+<style>
+
+fieldset{margin: 20 auto; padding: 20px;}
+label,hr,textarea {display: block;}
+textarea{height: 200px;width: 600px; padding: 10px;}
+legend{background-color: rgb(229, 228, 226); padding: 6px;border: 1px solid #ccc; font-family: Arial, Helvetica, sans-serif;}
+input{padding: 6px;}
+</style>
+<script>
+
+</script>
+
+
+
+</head>
+<body>
+    <form action="" name="Registration"></form>
+        <fieldset >
+            <legend>Personal Info</legend>
+            <label name ="UserName">UserName</label>
+            <input type="text">
+            <label name="password">Password</label>
+            <input type="password">
+            <label name="E-mail">E-mail</label>
+            <input type="email">
+            <label for="">Gender</label>
+            <select name="" id="">
+                <option value="Male" name="Male">Male</option>
+                <option value="female" name="Female">Female</option>
+            </select>
+        </fieldset>
+        <fieldset>
+          <legend >Choose your favuorit</legend> 
+                 <label >Brawser</label><br>
+                    <input type="radio" name="Brawser" value="chrom">chrom
+                    <input type="radio" name="Brawser"value="Firefox">Firefox
+                    <input type="radio"name="Brawser"value="Opera">Opera
+                    <hr>
+                <label>Phone</label> <br>
+                    <input type="radio" name="Phone" value="iphone">iphone
+                    <input type="radio" name="Phone" value="Samsung">Samsung
+                    <input type="radio" name="phone" value="Realme">Realme
+                    <hr>
+                 <label>Club</label><br>
+                    <input type="checkbox"name="Club" value="Man city">Man city
+                    <input type="checkbox"name="Club" value="Al-Ahly"> AL-Ahly
+                    <input type="checkbox" name="Club" value="R Madrid">R Madrid
+                    <input type="checkbox" name="Club" value="Barcelona">Barcelona
+        </fieldset>    
+        <fieldset>
+            <legend>message</legend>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Your message here"></textarea>
+            <label >remember me</label>
+            <input type="checkbox">
+        </fieldset>
+        <br>
+            <input type="submit" name="submit" value="send your Info" >
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
